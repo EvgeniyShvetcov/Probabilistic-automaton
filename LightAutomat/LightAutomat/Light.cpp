@@ -58,7 +58,7 @@ long Light::GetCloseCountState()
 	{
 		std::for_each(_stateData.cbegin(), _stateData.cend(), [&closecount](const auto& item)
 		{
-			if (item == 0)
+			if (item == 1)
 			{
 				++closecount;
 			}
